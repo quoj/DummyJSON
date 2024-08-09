@@ -1,0 +1,27 @@
+const auctionItems = [
+    {
+        "id": 1,
+        "title": "Antique Vase",
+        "description": "A beautiful ancient vase from the Ming dynasty.",
+        "price": 5000,
+        "images": ["https://example.com/images/vase1.jpg"]
+    },
+    {
+        "id": 2,
+        "title": "Vintage Pocket Watch",
+        "description": "A rare pocket watch from the early 19th century.",
+        "price": 3000,
+        "images": ["https://example.com/images/watch1.jpg"]
+    },
+    {
+        "id": 3,
+        "title": "Historical Sword",
+        "description": "A sword used in historical battles.",
+        "price": 7000,
+        "images": ["https://example.com/images/sword1.jpg"]
+    }
+];
+
+// Convert to JSON
+const jsonString = JSON.stringify(auctionItems);
+console.log(jsonString);
